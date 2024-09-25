@@ -24,3 +24,16 @@ main{
 html {
     overflow: scroll;
 }
+
+.caixa_tendencias{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
+    border: 2px solid gray;
+}
+
+.trend{
+    width: 15rem;
+}
