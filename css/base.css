@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+.botao{
+    height: 2rem
+}
+footer {
+    display: flex;
+    border: 1px solid gray;
+    justify-content: row;
+    align-items: space-around;
+    padding: 2rem;
+    margin: 1rem;
+}
