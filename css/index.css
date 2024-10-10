@@ -4,7 +4,6 @@ main{
     flex-direction: column;
     justify-content: space-between;
     margin: 1.5rem 1rem 0 1rem;
-
 }
 
 .footerindex {
@@ -21,6 +20,7 @@ main{
 footer img{
     width: 5rem;
 }
+
 .caixa_tendencias{
     height: 18rem;
     display: flex;
@@ -59,4 +59,14 @@ footer img{
     border: 0.18rem solid gray;
     border-radius: 50%;
     margin-right: 0.3rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header img{
+    height:4rem;
 }

@@ -1,0 +1,74 @@
+header{
+    margin: 1.5rem 0 1rem 0.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fundo {
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.divflash{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.imgflash{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%
+}
+.divflash button{
+    padding:0;
+    display: flex;
+    justify-content: center;
+    border: 0.01rem solid gray;
+    border-radius: 50%;
+}
+
+
+.divadd{
+    width: 100%;
+    position:absolute;
+    bottom:0.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.divadd button{
+    padding:0;
+    display: flex;
+    justify-content: center;
+    border: 0.01rem solid gray;
+    border-radius: 50%;
+}
+.imgadd{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%
+}
+
+figure{
+    margin: 0.5rem;
+    padding: 0.3rem;
+    background-color: rgb(170, 170, 170);
+    border-radius: 1rem;
+    
+}
+figure img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 0.01rem solid gray;
+}

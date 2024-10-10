@@ -4,39 +4,29 @@ html {
     background-color: rgb(210, 233, 235);
 }
 
-body{
-    width: 100%;
-    height: 100%;
-}
-
 .botao{
-    height: 3rem;
+    height: 2rem;
     width: 3rem;
-    border-radius: 50px;
-    border: 1px black solid
+    border-radius: 10rem;
+    border: 0.01rem black solid
 }
 
 footer {
-    position: fixed;
     width: 100%;
     display: flex;
     border-top: 1.5px solid rgb(205, 203, 203);
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 0 1.5rem 0;
     background-color: white;
-    position: fixed;
+    position:absolute;
     bottom: 0;
-
+    justify-content: space-evenly;
+    padding: 0.4rem 0 0.4rem 0;
 }
 
-header {
+footer img{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    padding:0.5rem;
 }
 
-header img{
-    height:4rem;
-}
