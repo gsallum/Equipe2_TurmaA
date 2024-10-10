@@ -19,10 +19,13 @@ figure img{
     width: 7rem;
     height: 7rem;
     border-radius: 50%;
-    border: 0.1rem solid gray;
+    border: 0.1rem solid rgb(128,128,128);
 }
 
 button{
-    margin: 1rem ;
+    margin: 1rem;
+    border: 0.01rem solid rgb(128,128,128);
+    border-radius: 2rem;
+    padding:0.5rem
 }
 

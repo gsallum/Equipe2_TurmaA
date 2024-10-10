@@ -50,7 +50,7 @@ main{
     padding:0;
     display: flex;
     justify-content: center;
-    border: 0.01rem solid gray;
+    border: 0.01rem solid rgb(128,128,128);
     border-radius: 50%;
 }
 .imgadd{
@@ -70,5 +70,5 @@ figure img{
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    border: 0.01rem solid gray;
+    border: 0.01rem solid rgb(128,128,128);
 }

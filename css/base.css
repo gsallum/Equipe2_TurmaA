@@ -1,14 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+p {
+
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: rgb(220, 219, 219);
+    border-radius: 0.4rem;
+    padding:0.3rem
+}
+
 html {
     height: 100%;
     width: 100%;
-    background-color: rgb(210, 233, 235);
+    background-color: rgb(232,232,232);
 }
 
 .botao{
     height: 2rem;
     width: 2rem;
     border-radius: 10rem;
-    border: 0.01rem black solid
+    border: 0.01rem solid rgb(0, 0, 0)
 }
 
 footer {
@@ -17,7 +28,7 @@ footer {
     border-top: 1.5px solid rgb(205, 203, 203);
     flex-direction: row;
     align-items: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position:absolute;
     bottom: 0;
     justify-content: space-evenly;

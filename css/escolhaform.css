@@ -21,6 +21,6 @@ figure img{
 
 button{
     margin: 1rem ;
-    border: 0.01rem solid gray;
+    border: 0.01rem solid rgb(128,128,128);
     border-radius: 2rem;
 }

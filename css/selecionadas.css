@@ -18,5 +18,5 @@ figure img{
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
-    border: 0.1rem solid gray;
+    border: 0.1rem solid rgb(128,128,128);
 }
