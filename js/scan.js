@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     flash = document.querySelector('.imgflash')
-    imgflash = flash.getAttribute('src')
 
-    paibotao = flash.closest()
-
-    paibotao.addEventListener('click', function(){
-        if (imgflash == "img/flash.jpeg"){
+    flash.addEventListener('click', function(){
+        if (flash.getAttribute('src') == "img/flash.jpeg"){
             flash.setAttribute('src', 'img/flashpreto.jpeg')
+        }
+        else {
+            flash.setAttribute('src', 'img/flash.jpeg')
         }
     })
 

@@ -41,6 +41,10 @@ footer img{
     padding:0.5rem 1rem;
 }
 
+#casinha{
+    width:2.7rem;
+}
+
 footer img:active{
     background-color: rgba(0, 0, 0, 0.4);
 }
