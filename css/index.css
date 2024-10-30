@@ -17,9 +17,15 @@ main{
     width: 100%;
 }
 
-
 footer img{
     width: 5rem;
+}
+
+footer a img:active{
+    width:5rem;
+    height:5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius:80rem;
 }
 
 .caixa_tendencias{
