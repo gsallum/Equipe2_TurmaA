@@ -37,7 +37,6 @@ main{
     border-radius: 50%;
 }
 
-
 .divadd{
     width: 100%;
     position:fixed;
@@ -53,6 +52,10 @@ main{
     justify-content: center;
     border: 0.01rem solid rgb(128,128,128);
     border-radius: 50%;
+}
+
+.divadd button:active {
+  border-color: red; /* Muda a cor da borda */
 }
 .imgadd{
     width: 4rem;
