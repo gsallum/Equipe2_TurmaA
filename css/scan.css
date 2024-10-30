@@ -55,7 +55,7 @@ main{
 }
 
 .divadd button:active {
-  border-color: red; /* Muda a cor da borda */
+  border-color: rgb(0, 179, 122); 
 }
 .imgadd{
     width: 4rem;
