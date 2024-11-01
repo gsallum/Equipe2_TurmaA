@@ -44,8 +44,14 @@ document.addEventListener('DOMContentLoaded', function() {
             // Exibe a cor capturada e salva na lista
             coresRGB.push([pixel[0], pixel[1], pixel[2]]);
             console.log(`Cor capturada: ${corCentral}`);
+
+            figure = document.querySelector('figure')
+            novop = document.createElement('p')
+            novop.style.backgroundColor = (corCentral)
+            figure.appendChild(novop)
         }
     
         // Evento do botão para capturar a cor
         captureColorButton.addEventListener('click', capturarCorCentral);
+
     });

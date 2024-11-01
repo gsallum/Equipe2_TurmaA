@@ -65,13 +65,18 @@ main{
 }
 
 figure{
+    width: 9rem;
+    display:flex;
     margin: 0.5rem;
     padding: 0.3rem;
     background-color: rgb(170, 170, 170);
     border-radius: 1rem;
+    overflow-x: scroll;
     
 }
-figure img{
+figure p{
+    min-width: 2rem;
+    margin-right: 0.1rem;
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
