@@ -28,3 +28,8 @@ button{
     border-radius: 2rem;
     padding:0.5rem
 }
+
+button:focus{
+    border-color: green;
+    border-width:0.2rem ;
+}

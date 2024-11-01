@@ -24,3 +24,7 @@ button{
     border: 0.01rem solid rgb(128,128,128);
     border-radius: 2rem;
 }
+button:focus{
+    border-color: green;
+    border-width: 0.2rem;
+}
