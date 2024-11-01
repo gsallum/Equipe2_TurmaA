@@ -14,7 +14,7 @@ figure{
     flex-wrap: wrap;
 }
 
-figure img{
+figure p{
     width: 10rem;
     height: 10rem;
     border-radius: 50%;

@@ -49,9 +49,14 @@ document.addEventListener('DOMContentLoaded', function() {
             novop = document.createElement('p')
             novop.style.backgroundColor = (corCentral)
             figure.appendChild(novop)
+
+            localStorage.setItem('listaMistura', coresRGB)
         }
     
         // Evento do botão para capturar a cor
         captureColorButton.addEventListener('click', capturarCorCentral);
+
+
+        
 
     });
