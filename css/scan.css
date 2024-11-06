@@ -87,7 +87,7 @@ figure p{
 .camera-container {
     position: relative;
     width: 100%; /* Largura fixa para a câmera */
-    height: 35rem; /* Altura fixa para a câmera */
+    height: 32rem; /* Altura fixa para a câmera */
     margin: 0 auto; /* Centralizar na tela */
     background-color: #000;
     display: flex;

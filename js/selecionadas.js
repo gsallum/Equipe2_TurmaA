@@ -1,22 +1,28 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    lista = localStorage.getItem('listaMistura')
+// Obtém a lista como string do localStorage
+let listaStr = localStorage.getItem('listaMistura');
 
-    agrupados = []
+// Divide a string em um array de números inteiros
+let lista = listaStr.split(',').map(Number);
 
-    for (let i = 0; i < lista.length; i += 3) {
-        const grupo = lista.slice(i, i + 3);
-        agrupados.push([grupo])
+let agrupados = [];
 
-    }
-    console.log(agrupados)
+// Agrupa a cada três valores
+for (let i = 0; i < lista.length; i += 3) {
+    const grupo = lista.slice(i, i + 3);
+    agrupados.push(grupo); // Insere o grupo como uma sublista
+}
 
-    for (item of agrupados){
-        novop = document.createElement('p')
-        novop.style.backgroundColor = item
-        document.querySelector('figure').appendChild(novop)
+// Salva 'agrupados' no localStorage como uma string JSON
+localStorage.setItem('agrupados', JSON.stringify(agrupados));
 
-        
-    }
+// Exibe os grupos e cria elementos <p> com a cor de fundo
+agrupados.forEach(item => {
+    let novop = document.createElement('p');
+    novop.style.backgroundColor = `rgb(${item[0]}, ${item[1]}, ${item[2]})`;
+    document.querySelector('figure').appendChild(novop);
+});
+
 
 })
