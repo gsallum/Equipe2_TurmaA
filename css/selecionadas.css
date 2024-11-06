@@ -29,8 +29,8 @@ figure p{
     width: 9rem;
     height: 9rem;
     border-radius: 50%;
-    border: 0.1rem solid rgb(128,128,128);
-    margin: 0.2rem;
+    border: 0.2rem solid rgb(128,128,128);
+    margin: 0.35rem;
 }
 
 footer{
