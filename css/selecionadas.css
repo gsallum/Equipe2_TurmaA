@@ -31,6 +31,27 @@ figure p{
     border-radius: 50%;
     border: 0.15rem solid rgb(128,128,128);
     margin: 0.35rem;
+    position: relative;
+}
+
+.none{
+    display: none
+}
+
+.botaolixo {
+    width: 2rem;
+    position: absolute;
+    right: .8rem;
+    top:-.5rem;
+    background-color: #FFBCB8;
+    padding: 0.2rem;
+    border-radius: 40%;
+    border: 0.12rem solid rgb(128,128,128);
+    display: flex;
+}
+
+.botaolixo img{
+    width: 1.5rem;
 }
 
 footer{

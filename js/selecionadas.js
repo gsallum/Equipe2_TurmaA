@@ -17,12 +17,29 @@ for (let i = 0; i < lista.length; i += 3) {
 // Salva 'agrupados' no localStorage como uma string JSON
 localStorage.setItem('agrupados', JSON.stringify(agrupados));
 
+botao = document.querySelector('.botaolixo')
+
 // Exibe os grupos e cria elementos <p> com a cor de fundo
 agrupados.forEach(item => {
     let novop = document.createElement('p');
     novop.style.backgroundColor = `rgb(${item[0]}, ${item[1]}, ${item[2]})`;
     document.querySelector('figure').appendChild(novop);
+
+    novobotao = botao.cloneNode(true)
+    novop.appendChild(novobotao)
+
 });
 
+listabotoes = document.querySelectorAll('button')
 
+listabotoes.forEach(botao => {
+    botao.addEventListener('click', function(event) {
+        const t = event.currentTarget;
+        const pai = t.closest('p');
+
+        if (pai) {
+            pai.remove()
+        }
+        });
+    })
 })
