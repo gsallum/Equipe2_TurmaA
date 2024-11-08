@@ -42,12 +42,17 @@ figure p{
     width: 2rem;
     position: absolute;
     right: .8rem;
-    top:-.5rem;
+    top:-.4rem;
     background-color: #FFBCB8;
     padding: 0.2rem;
     border-radius: 40%;
     border: 0.12rem solid rgb(128,128,128);
     display: flex;
+}
+
+.botaolixo:active{
+    border-color: red;
+    background-color: #ed8b86;
 }
 
 .botaolixo img{
@@ -56,4 +61,77 @@ figure p{
 
 footer{
     position: fixed;
+}
+
+
+
+.container {
+    position: fixed;
+    top:44%;
+    left: 35%;
+--uib-size: 7rem;
+--uib-color: rgb(0, 0, 0);
+--uib-speed: .7s;
+--uib-stroke: 0.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+height: var(--uib-size);
+width: var(--uib-size);
+}
+
+.line {
+position: absolute;
+top: calc(50% - var(--uib-stroke) / 2);
+left: 0;
+height: var(--uib-stroke);
+width: 7rem;
+border-radius: calc(var(--uib-stroke) / 2);
+background-color: var(--uib-color);
+animation: rotate var(--uib-speed) ease-in-out infinite;
+transition: background-color 0.3s ease;
+}
+
+.line:nth-child(1) {
+animation-delay: calc(var(--uib-speed) * -0.375);
+}
+
+.line:nth-child(2) {
+animation-delay: calc(var(--uib-speed) * -0.375);
+opacity: 0.8;
+}
+
+.line:nth-child(3) {
+animation-delay: calc(var(--uib-speed) * -0.3);
+opacity: 0.6;
+}
+
+.line:nth-child(4) {
+animation-delay: calc(var(--uib-speed) * -0.225);
+opacity: 0.4;
+}
+
+.line:nth-child(5) {
+animation-delay: calc(var(--uib-speed) * -0.15);
+opacity: 0.2;
+}
+
+.line:nth-child(6) {
+animation-delay: calc(var(--uib-speed) * -0.075);
+opacity: 0.1;
+}
+
+@keyframes rotate {
+0% {
+    transform: rotate(0deg);
+}
+
+100% {
+    transform: rotate(180deg);
+}
+}
+
+
+.hidden{
+    display: none
 }

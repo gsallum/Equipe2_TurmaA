@@ -21,7 +21,16 @@ let mediaB = Math.round(totalB / totalCores);
 // Cor final da mistura
 let corMistura = `rgb(${mediaR}, ${mediaG}, ${mediaB})`;
 
-p = document.querySelector('figure p')
-p.style.backgroundColor = corMistura
+
+function after(){
+    p = document.querySelector('figure p')
+    p.style.backgroundColor = corMistura
+    document.querySelector('figure').classList = ''
+    document.querySelector('.container').classList = '.hidden'
+}
+
+setTimeout(after, 4000)
+
+
 
 })

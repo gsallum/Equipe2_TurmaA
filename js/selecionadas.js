@@ -37,6 +37,7 @@ listabotoes.forEach(botao => {
         const t = event.currentTarget;
         const pai = t.closest('p');
 
+
         if (pai) {
             pai.remove()
         }
