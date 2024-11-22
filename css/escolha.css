@@ -1,9 +1,13 @@
+
+body {
+    min-height: 1000vh;
+}
+
 header{
     margin: 1.5rem 0 1rem 0.5rem;
     display: flex;
     justify-content: center;
 }
-
 
 figure{
     margin:7rem 1rem 0;

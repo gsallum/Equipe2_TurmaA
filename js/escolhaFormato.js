@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         botao.addEventListener('click', function(event){
             t = event.currentTarget
-            cor = t.querySelector('img').getAttribute('src').slice(4, -5)
-            localStorage.setItem('cor', cor)
+            formato = t.querySelector('img').getAttribute('src').slice(4, -5)
+            localStorage.setItem('formato', formato)
         })
         }
 })
